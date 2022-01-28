@@ -16,6 +16,7 @@ public class JEXLMvelTest {
 
     public long test_jxel_expression(){
         JexlScript expr = jexl.createScript(expression01);
+
         long ts = System.nanoTime();
         JexlContext ctx =new MapContext();
         for(int i=0;i<10000;i++) {

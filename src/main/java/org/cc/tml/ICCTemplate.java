@@ -1,2 +1,5 @@
-package org.cc.tml;public class ICCTemplate {
+package org.cc.tml;
+
+public interface ICCTemplate {
+
 }
